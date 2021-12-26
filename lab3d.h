@@ -1,3 +1,6 @@
+#ifndef LAB3D_H
+#define LAB3D_H
+
 #ifndef WIN32
 #ifdef _WIN32
 #define WIN32
@@ -925,3 +928,5 @@ void updateclock(void);
 
 /* Aspect ratio correction factors for ingame view (extra width and height). */
 EXTERN GLdouble aspw, asph;
+
+#endif // LAB3D.H

@@ -1,4 +1,5 @@
-
+#ifndef DEMO_H
+#define DEMO_H
 
 typedef struct demofile demofile_t;
 
@@ -21,3 +22,5 @@ void demofile_write_event(demofile_t* d, unsigned char* data, int size);
 
 int demofile_advance(demofile_t*, int);
 void demofile_update_vars(demofile_t*);
+
+#endif // DEMO_H
